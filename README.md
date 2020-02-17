@@ -1,10 +1,9 @@
-<h1 align="center">
-    <img alt="WaDev" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/logo.png" width="350px">
-</h1>
 <p align="center">
-    <img alt="WaDev" title="#screen1" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/screen1.png" width="250px">
-    <img alt="#screen2" title="#screen2" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/screen2.png" width="250px">
-    <img alt="#screen2" title="#screen3" src="https://github.com/LucasReinaldo/wadev-omnistack/blob/master/client/public/screen3.png" width="250px">
+    <img alt="WaDev" title="#screen1" src="https://github.com/LucasReinaldo/exercise-tracker/blob/master/client/public/img/createUser.png" width="250px">
+    <img alt="#screen2" title="#screen2" src="https://github.com/LucasReinaldo/exercise-tracker/blob/master/client/public/img/createExercise.png" width="250px">
+    <img alt="#screen2" title="#screen3" src="https://github.com/LucasReinaldo/exercise-tracker/blob/master/client/public/img/createExercise1.png" width="250px">
+    <img alt="#screen2" title="#screen3" src="https://github.com/LucasReinaldo/exercise-tracker/blob/master/client/public/img/createExercise2.png" width="250px">
+    <img alt="#screen2" title="#screen3" src="https://github.com/LucasReinaldo/exercise-tracker/blob/master/client/public/img/showAll.png" width="250px">
 </p>
 
 ## Technologies
