@@ -1,0 +1,75 @@
+aside {
+    margin: 10px auto 20px auto;
+    border: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.10);
+    padding: 30px 20px;
+    width: 640px;
+    background-color: rgba(255, 255, 255, 0.945);
+}
+
+aside strong {
+    color: #666;
+    display: block;
+    font-size: 21px;
+    text-align: center;
+}
+
+aside form {
+    margin-top: 20px;
+}
+
+/* searches for every input-block that already has an input-block before (except the first) */
+aside form .input-block + .input-block { 
+    margin-top: 20px;
+}
+
+aside form .input-group {
+    display: grid;
+    gap: 20px; /* gap between duration and date */
+    grid-template-columns: 1fr 1fr; /* each input ocupe 50% of the area */
+    margin-top: 20px;
+}
+
+aside form .input-group .input-block {
+    margin-top: 0px;
+}
+
+aside form .input-block label {
+    color: #666;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+aside form .input-block input {
+    border: 0px;
+    border-bottom: 1px solid #eee;
+    color: #666;
+    font-size: 14px;
+    height: 32px;
+    width: 100%;
+}
+
+.input-editor {
+    border: 1px solid #eee;
+}
+
+aside form button[type=submit] {
+    display: grid;
+    background: #41B3A3;
+    border: 0;
+    border-radius: 3px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px auto 0 auto;
+    padding: 13px 18px;
+    width: 50%;
+    transition: background 0.5s;
+}
+
+aside form button[type=submit]:hover {
+    background: rgb(54, 148, 135);
+}

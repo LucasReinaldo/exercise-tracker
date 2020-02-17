@@ -1,0 +1,61 @@
+main {
+    flex: 1; /* ocupar todo o espaço, ao contrário do Sidebar*/
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+    margin: 20px 0 0 10px;
+}
+
+strong.username-title {
+    font-size: 18px;
+}
+
+li.exercise-item {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+li.exercise-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.exercise-info span {
+    color: #666;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+div.edit-delete span, .item-edit, .item-delete {
+    color: #666;
+    float: right;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.item-edit:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+button.item-delete {
+    border: none;
+}
+
+button.item-delete:hover {
+    color: red;
+    border-bottom-width: 10px;
+}
+
+li.exercise-item p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 0;
+}

@@ -1,0 +1,8 @@
+#app {
+    align-items: flex-start; /* alinhados ao topo */
+    display: flex;
+    flex-direction: row; /* um ao lado do outro */
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 40px 30px;
+}
